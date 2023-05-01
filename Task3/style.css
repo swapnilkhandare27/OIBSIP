@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.nav h1 {
+    margin-left: 32%;
+    padding-top: 2px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 95%;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80vw;
+    padding-top: 0px;
+}
+#im {
+    background: url(s.jpg) no-repeat center;
+    background-size: 100%;
+    height: 300px;
+    background-position-y: -200px;
+    border-radius: 30px 30px 0px 0px;
+}
+#im img {
+    width: 150px;
+    margin-left: 60%;
+    margin-top: 3%;
+}
+.x {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+.form {
+    margin-top: 0px;
+    padding: 0px 0px;
+    position: relative;
+    padding-top: 0px;
+    border-radius: 35px;
+    border: double 5px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+        linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: 40%;
+}
+.form img {
+    border-radius: 30px 30px 0px 0px;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-left: 3px solid rgb(87, 198, 232);
+    padding-left: 8px;
+}
+#degree {
+    padding: 10px;
+    padding-right: 25px;
+}
+.button {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+#button {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px;
+    width: 40%;
+    letter-spacing: 3px
+}
+
+#button:hover {
+    background-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    ;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    transition: all .4s;
+}
+
+#input {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#output {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+}
+
+.form select {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 3%;
+
+}
